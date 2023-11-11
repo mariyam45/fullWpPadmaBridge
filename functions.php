@@ -15,3 +15,32 @@ register_sidebar([
     'after_widget'=>''
 
 ]);
+
+register_nav_menus([
+ 'PM'=>'Primary'
+]);
+
+register_sidebar([
+    'name'=>'Hero title',
+    'name'=>'herotitle',
+    'before_widget'=>'',
+    'after_widget'=>''
+]);
+register_sidebar([
+    'name'=>'Hero Card1',
+    'name'=>'herocard1',
+    'before_widget'=>'',
+    'after_widget'=>''
+]);
+register_sidebar([
+    'name'=>'Hero Card2',
+    'name'=>'herocard2',
+    'before_widget'=>'',
+    'after_widget'=>''
+]);
+register_sidebar([
+    'name'=>'Hero Card3',
+    'name'=>'herocard3',
+    'before_widget'=>'',
+    'after_widget'=>''
+]);
